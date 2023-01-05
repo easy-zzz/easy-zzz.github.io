@@ -11,6 +11,7 @@ fi
 
 # git pull
 git add --all
-git commit -q -m "Last Sync: $(date +"%Y.%m.%d %H:%M:%S")"
+git commit -q -m "Last Sync: $(date +"%d.%m.%Y %H:%M:%S")"
 git push #-q
 
+termux-open-url https://easy-zzz.github.io
